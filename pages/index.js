@@ -622,7 +622,7 @@ const JOBS_DATA = {
   },
 };
 
-export default function Home() {
+export default function DetailApp() {
   const [currentPage, setCurrentPage] = useState('home');
   const [selectedJob, setSelectedJob] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
